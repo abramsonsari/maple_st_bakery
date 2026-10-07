@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maple St.</title>
+</head>
+<body>
+    <header> Welcome To Maple St. Bakery
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <figure> <img src="images/maple_logo.png" id="main_image" alt="Maple Street Bakery Hours Logo" height="400">
+        <figcaption>Maple Street Bakery Hours Logo</figcaption>
+        </figure>
+
+            <h1>Maple Street Bakery & Café </h1>
+
+        <h2> About Our Sourdough</h2>
+        <p> We create the best sourdough around! It is delicious and stays fresh for a week!</p>
+        <h2> Catering Request</h2>
+        <p> For catering questions call us at 1-888-70-MAPLE.</p>
+        <p>Or, email us at maplecatering@maplebakeries.com </p>
+        <form action="/submit" method="POST">
+            <fieldset>
+                <legend>Catering Inquiry Form</legend>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name"  required>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="comments">Any Comments: </label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            <button type="submit">Submit Request</button>
+            </fieldset>
+
+        </form>
+
+
+    </main>
+    <footer>
+        © 2026 Maple Street Bakery & Café
+    </footer>
+</body>
+</html>
